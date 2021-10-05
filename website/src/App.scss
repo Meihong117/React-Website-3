@@ -6,10 +6,19 @@
         background-color: sandybrown;
         position: relative;
         top: 70px;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        // for firefox: doesnt show the scroll bar
+        // scrollbar-width: none; 
+        // for others
+        // &::-webkit-scrollbar{
+        //     display: none;
+        // }
 
         > *{
             width: 100vw;
             height: calc(100vh - 70px);
+            scroll-snap-align: start;
         }
     }
 }
