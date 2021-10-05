@@ -3,7 +3,7 @@ import './Testmonials.scss'
 
 export default function Testmonials() {
     return (
-        <div>
+        <div className='testmonials'>
 
         </div>
     )
