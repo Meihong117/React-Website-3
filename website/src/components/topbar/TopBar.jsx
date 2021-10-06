@@ -1,7 +1,7 @@
 import React from 'react'
 import './TopBar.scss'
 import { BsFillPersonFill } from 'react-icons/bs';
-import { BsFillChatLeftTextFill } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
 
 export default function TopBar() {
     return (
@@ -14,7 +14,7 @@ export default function TopBar() {
                         <span>+64 000 0000</span>
                     </div>
                     <div className="itemContainer">
-                        <BsFillChatLeftTextFill className='icon' />
+                        <MdEmail className='icon' />
                         <span>email@email.com</span>
                     </div>
                 </div>
